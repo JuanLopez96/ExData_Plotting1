@@ -7,3 +7,5 @@ lines(household_power_consumption$Time, household_power_consumption$Sub_metering
 axis.POSIXct(1, at=seq(startDay, endDay, by="day"), format="%a")
 legend("topright", lty=c(1,1,1), col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 dev.off()
+
+## Please note that the abbreviations of the days of the week appear in spanish (ju. = jueves; vi. = viernes; sá. = sábado).
