@@ -20,3 +20,5 @@ plot(household_power_consumption$Time, household_power_consumption$Global_reacti
 axis.POSIXct(1, at=seq(startDay, endDay, by="day"), format="%a")
 
 dev.off()
+
+## Please note that the abbreviations of the days of the week appear in spanish (ju. = jueves; vi. = viernes; sá. = sábado).
